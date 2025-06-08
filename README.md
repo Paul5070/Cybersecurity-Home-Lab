@@ -27,7 +27,7 @@ A home lab setup with two VMs: Kali Linux (Attacker) and Windows 10 (Target). IP
 
 ## Ref 2: Windows 10 Firewall Disabled
 Windows firewall was turned off to demonstrate the importance of host hardening. This allows inbound connections from Kali without restrictions.
-****![Cybersecurity Home Lab- Disabling Firewall Importance of security](https://github.com/user-attachments/assets/f772fd59-b842-4102-8231-276ce2a285c8)
+![Cybersecurity Home Lab- Disabling Firewall Importance of security](https://github.com/user-attachments/assets/f772fd59-b842-4102-8231-276ce2a285c8)
 
 ## Ref 3: Nmap Port Scan
 Using nmap from Kali to enumerate open ports on the Windows 10 host.
