@@ -19,6 +19,7 @@ Tools Used
 4. Metasploit Framework (msfvenom, msfconsole)
 5. Setup Virtual Machines and configuration.
 6. Splunk (SIEM)
+   
 Steps
 Ref 1: Network Diagram
 A home lab setup with two VMs: Kali Linux (Attacker) and Windows 10 (Target). IPs were manually configured for controlled communication.
@@ -45,4 +46,7 @@ Ref 6: Established Connection for Exploitation
 After the payload and using a simple Python HTTP server, the target system downloaded and executed Resume.pdf.exe. The multi/handler listener on Kali captured the reverse shell and successfully opened a Meterpreter session.
 ![Cybersecurity Home Lab-Established connection 2](https://github.com/user-attachments/assets/5f584500-db8b-494b-b0dc-4944661fcab2)
 
-Ref 7: 
+Ref 7: Splunk SIEM - Log Detection
+Splunk was used to collect logs from the Windows 10 machine using a Universal Forwarder. Events related to the payload (e.g., suspicious .exe execution, network connections) were captured and flagged in Splunk for analysis.
+![Cybersecurity Home Lab-Splunk Logs 2](https://github.com/user-attachments/assets/ac872584-0f42-48b2-9366-86968ef22914)
+This shows how SIEM tools can help detect attacks in real time.
