@@ -49,4 +49,5 @@ After the payload and using a simple Python HTTP server, the target system downl
 Ref 7: Splunk SIEM - Log Detection
 Splunk was used to collect logs from the Windows 10 machine using a Universal Forwarder. Events related to the payload (e.g., suspicious .exe execution, network connections) were captured and flagged in Splunk for analysis.
 ![Cybersecurity Home Lab-Splunk Logs 2](https://github.com/user-attachments/assets/ac872584-0f42-48b2-9366-86968ef22914)
+![Cybesecurity Home Lab-Splunk Resume pdf exe capture port 3389 png Copy](https://github.com/user-attachments/assets/c3a5695b-26b5-4bd8-b0df-b5819894dd2a)
 This shows how SIEM tools can help detect attacks in real time.
