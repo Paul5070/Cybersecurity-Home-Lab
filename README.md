@@ -34,7 +34,7 @@ Using nmap from Kali to enumerate open ports on the Windows 10 host.
 ![Cybersecurity Home Lab-Nmap Port scan 1](https://github.com/user-attachments/assets/7a2cf844-1690-4901-900e-50353541177e)
 
 ## Ref 4: Payload Creation 
-Creation of msfvenom payload, a tool within metasploit framework. The payload is designed to create a reverse TCP shell that connects back to the attackers Kali Linux Machine once executed on the WIndows 10 target.
+Creation of msfvenom payload, a tool within metasploit framework.The payload generates a reverse TCP shell, connecting back to the Kali machine when executed on the Windows 10 target.
 ![Cybersecurity Home Lab-msfvenom payload executable](https://github.com/user-attachments/assets/6dc3583b-48e1-4e95-9fbb-6291ad9e807f)
 
 ## Ref 5: Exploiting Payload via Multi/Handler
